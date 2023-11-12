@@ -41,3 +41,8 @@ Route::resource('pegawai', PegawaiController::class);
 //Route put/patch => pegawai/{id} => update
 //Route delete => pegawai/{id} => delete
 //Route get => pegawai/{id}/edit => edit
+
+Route::resource('pegawai', PegawaiController::class);
+Route::get('/', function () {
+    return redirect('/pegawai');
+});
