@@ -156,6 +156,8 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
+
+        App\Facade\Pegawai::class,
         /*
          * Package Service Providers...
          */
