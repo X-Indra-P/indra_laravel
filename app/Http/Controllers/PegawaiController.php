@@ -10,7 +10,7 @@ class PegawaiController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
         $datas = Pegawai::all();
 
