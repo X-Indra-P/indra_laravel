@@ -9,5 +9,5 @@ class pegawai extends Model
 {
     use HasFactory;
 
-    protected $table = 'tbpegawai';
+   
 }
