@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\pegawai;
+use App\Models\Pegawai;
 
 class PegawaiController extends Controller
 {
@@ -12,7 +12,7 @@ class PegawaiController extends Controller
      */
     public function index()
     {
-        $datas = pegawai::all();
+        $datas = Pegawai::all();
 
         return view('pegawai.index', compact(
             'datas'
