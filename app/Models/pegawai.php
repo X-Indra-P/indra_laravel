@@ -9,9 +9,4 @@ class Pegawai extends Model
 {
     use HasFactory;
 
-<<<<<<< HEAD
-    protected $table = "tbpegawai";
-=======
-   
->>>>>>> b1c842d87d0c73d9a691ec590d97a6ad53596c61
 }
