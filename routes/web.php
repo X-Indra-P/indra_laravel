@@ -45,4 +45,8 @@ Route::resource('pegawai', PegawaiController::class);
 Route::resource('pegawai', PegawaiController::class);
 Route::get('/', function () {
     return redirect('/pegawai');
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> b1c842d87d0c73d9a691ec590d97a6ad53596c61

@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Pegawai;
+use Illuminate\Http\Request;
+use File;
 
 class PegawaiController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
         $datas = Pegawai::all();
-
         return view('pegawai.index', compact(
             'datas'
         ));

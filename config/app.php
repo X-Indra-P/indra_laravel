@@ -156,6 +156,8 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
+
+        App\Facade\Pegawai::class,
         /*
          * Package Service Providers...
          */
@@ -182,6 +184,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'pegawai' => App\Facade\Pegawai::class,                                         
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
